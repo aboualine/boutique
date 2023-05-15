@@ -1,0 +1,437 @@
+body{
+    background-color: grey;
+    padding: 20px;
+}
+header{
+    border: 1px solid white;
+    box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-sizing: content-box;
+    border-radius: 20px;
+}
+h1{
+    color: black;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.tt{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2em;
+
+}
+.produits{
+    padding: 10px;
+    background-color: white;
+    border :1px solid white;
+    border-radius: 20px;
+    box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.3);
+    grid-column: 1/3;
+    margin-top: 40px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2em;
+    height: 50em;
+}
+img{
+    height: 15em;
+    width: 15em;
+    background-size: cover;
+}
+.grndiv{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    color: black;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2em 1em 1em 1em;
+    position: relative;
+    gap: 1em;
+    height: 20em;
+    width: 15em;
+}
+.imgprd{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.prix{
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 2px;
+    width: 3em;
+    position: absolute;
+    left: 6em;
+}
+.dis{
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    box-sizing: content-box;
+    color: black;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-column: 1/4;
+}
+.cmnd{
+    grid-column: 4/5;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px grey inset;
+    background-color: rgb(223, 223, 223);
+    height: 5em;
+    margin-top: 3px;
+    padding: 3px 0 0 0;
+}
+.nbr{
+    width: 3em;
+    height: 1em;
+    font-size: x-large;
+    text-align: center;
+}
+.predis{
+    position: absolute;
+    top:-7px;
+    left: 1em;
+}
+.fa-cart-plus{
+    height: 50%;
+    width: 80%;
+    margin-left: 6px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.aside{
+    padding: 1em ;
+    background-color: white;
+    border :1px solid white;
+    border-radius: 20px;
+    box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.3);
+    margin-top: 40px;
+}
+.pt{
+    width: 98%;
+    height: 3em;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+.ttpanier{
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 2px;
+}
+.imgprd1{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd2{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd3{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd4{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(5.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd5{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(6.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd6{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(7.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd7{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(8.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd8{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(9.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd9{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(10.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd10{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(11.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd11{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(12.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd12{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(13.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd13{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(14.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd14{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(15.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd15{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(16.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd16{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(17.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd17{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(18.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd18{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(19.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd19{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(20.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd20{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(21.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd21{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(22.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd22{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(23.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imgprd23{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px cyan inset;
+    position: relative;
+    overflow: hidden;
+    background-image: url(24.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#prd-cmnd{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 80%;
+    margin-top: 3px;
+    display: grid;
+    grid-template-rows: repeat(10,1fr);
+}
